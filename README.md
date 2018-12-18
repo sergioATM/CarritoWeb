@@ -1,6 +1,6 @@
-#**Proyecto Carrito de la compra**
+# **Proyecto Carrito de la compra**
 
-##Tecnologias utilizadas en el proyecto:
+## Tecnologias utilizadas en el proyecto:
 * Git
 * JDK 8
 * Node

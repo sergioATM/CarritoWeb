@@ -4,10 +4,17 @@
 Podrá realizar consultas al catálogo de productos y navegar de forma libre por la zona pública de la web.
 ## Escenarios como Usuario Anónimo
 
-### Escenario 1
+### Escenario registrar usuario
 + **Como** Usuario anónimo
 + **Quiero** Registrar
 + **Para** Poder acceder a la web
+
+### Escenario ver productos
++ **Como** Usuario anónimo
++ **Quiero** Ver productos
++ **Para** Poder ver los productos sin estar registrado
+
+
 
 #### Descripción Funcional del Proceso Registrar usuario
 
@@ -17,7 +24,3 @@ Podrá realizar consultas al catálogo de productos y navegar de forma libre por
 4. El sistema comprueba que todos los datos son correctos
 5. El sistema indica al usuario que el proceso de alta ha sido correcto y ya puede acceder a la plataforma con sus datos
 
-### Escenario 2
-+ **Como** Usuario anónimo
-+ **Quiero** Ver productos
-+ **Para** Poder ver información

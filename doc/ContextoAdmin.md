@@ -9,27 +9,27 @@ Administrador será el encargado de realizar todas las funciones de gestión del
 + **Quiero** Añadir Usuario
 + **Para** Tener un usuario registrado en el sistema
 
-###Escenario modificar usuario
+### Escenario modificar usuario
 + **Como** Administrador
 + **Quiero** modificar usuario
 + **Para** Tener acceso a modificar los datos de un usuario
 
-###Escenario eliminar usuario
+### Escenario eliminar usuario
 + **Como** Administrador
 + **Quiero** eliminar usuario
 + **Para** Poder eliminar un usuario
 
-###Escenario añadir producto
+### Escenario añadir producto
 + **Como** Administrador
 + **Quiero** añadir producto
 + **Para** Poder añadir un producto
 
-###Escenario modificar producto
+### Escenario modificar producto
 + **Como** Administrador
 + **Quiero** modificar producto
 + **Para** Poder modificar el nombre la descripción o el precio de un producto
 
-###Escenario eliminar producto
+### Escenario eliminar producto
 + **Como** Administrador
 + **Quiero** eliminar producto
 + **Para** Poder eliminar un producto

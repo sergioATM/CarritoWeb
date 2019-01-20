@@ -26,13 +26,13 @@ Usuario que se ha registrado en el sistema y que por lo tanto sus datos están e
 
 ### Escenario cambiar contraseña
 
-#####Usuario para cambiar la contraseña con éxito deberá introducir una nueva contraseña de más de 6 caracteres y que no sea similar a la anterior
+##### Usuario para cambiar la contraseña con éxito deberá introducir una nueva contraseña de más de 6 caracteres y que no sea similar a la anterior
 
 + **Como** Usuario
 + **Quiero** Cambiar contraseña
 + **Para** Tener la posibilidad de modificar su contraseña
 
-#### Criterio de aceptación 
+#### Criterios de aceptación 
 
  **Escenario 1:** Usuario introduce nueva contraseña igual que la anterior
 
@@ -65,11 +65,11 @@ Usuario que se ha registrado en el sistema y que por lo tanto sus datos están e
 - **Entonces** Se muestra mensaje de informando que usuario con nombre [] ha cerrado la sesión correctamente y te redirige a la pagina principal para usuarios anónimos
 
 ### Escenario modificar datos
-#####Usuario para modificar los datos con éxito deberá rellenar todos los campos de texto
+##### Usuario para modificar los datos con éxito deberá rellenar todos los campos de texto
 + **Como** Usuario
 + **Quiero** Cambiar datos de la cuenta 
 + **Para** Cambiar datos como el e-mail, nombre, apellidos, dirección y todos los datos personales necesarios para el registro
-#### Criterio de aceptación
+#### Criterios de aceptación
  **Escenario 1:** Usuario deja un campo vacío
 
 - **Dado que** Usuario ha dejado uno o mas campos del formulario sin información
@@ -111,16 +111,29 @@ Usuario que se ha registrado en el sistema y que por lo tanto sus datos están e
 - **Dado que** Usuario esta en el carrito y quiere eliminar un producto
 - **Cuando** Usuario ha pulsado el botón con la X
 - **Entonces** Se elimina el producto total del carrito 
+
 ### Escenario ver carrito
 + **Como** Usuario
 + **Quiero** Ver los productos añadidos al carrito
 + **Para** Poder ver los productos añadidos al carrito y poder pasar a finalizar compra o a modificar algún producto
 #### Criterio de aceptación 
+
+**Escenario 1:** Usuario accede a ver los productos guardados en el carrito
+
+- **Dado que** Usuario esta en cualquier parte de la pagina y quiere ver su carrito
+- **Cuando** Usuario ha pulsado botón ver carrito
+- **Entonces** Se muestra pagina de carrito con los productos guardados
+
 ### Escenario pagar y finalizar compra
 + **Como** Usuario
 + **Quiero** Pagar y finalizar compra
 + **Para** Poder finalizar la compra de los productos añadidos al carrito, procesar el pago y obtener una venta
 #### Criterio de aceptación 
 
+**Escenario 1:** Usuario quiere finalizar compra
+
+- **Dado que** Usuario esta en el carrito y quiere finalizar la compra
+- **Cuando** Usuario ha pulsado botón finalizar compra
+- **Entonces** Se muestra pagina de pago para finalizar la compra 
 
 
